@@ -38,6 +38,15 @@ def Check(old_function):
 		old_function(arg)
 	return new_function
 
+def multiply(multiplier):
+	def Multiply_Generator(old_function):
+		def new_function(*args, **kwds):
+			return new_function	
+return Multiply_Generator
+
+@Multiply(3) 
+def Num(num):
+	return num
 
 
 

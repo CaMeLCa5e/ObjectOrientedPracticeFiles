@@ -22,18 +22,11 @@ class MinimumBalanceAccount(BankAccount):
 			print "Sorry, minimum balance must be maintained"
 		else:
 			BankAccount.withdraw(self, amount)
-		
 
-a = make_account()
-b = make_account()
 
-deposit(a, 100)
+a = BankAccount()
+b = BankAccount()
 
-deposit(b, 50)
-
-withdraw(b, 10) 
-
-withdraw(a, 10)
 
 
 

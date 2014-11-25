@@ -12,7 +12,7 @@ class Customer(object):
 
 	def withdraw(self, amount):
 		if amount > self.balance:
-			raise RuntimeErrot("amount greater than available")
+			raise RuntimeError("amount greater than available")
 
 	def deposit(self, amount):
 		self.balance += amount

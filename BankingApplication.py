@@ -18,3 +18,6 @@ class Customer(object):
 		self.balance += amount
 		return self.balance
 
+
+except
+
